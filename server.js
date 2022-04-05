@@ -21,7 +21,7 @@ get_allcoins()
 setInterval(() => {
 	get_allcoins()
 }
-,120000)
+,1000*60*5)
 ///////////////////////////////
 import express from 'express'
 
