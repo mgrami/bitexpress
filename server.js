@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let allcoins = []
-let pages = 4
+let pages = 50
 
 async function get_allcoins(){
   let allcoins_ = []
